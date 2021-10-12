@@ -1,0 +1,42 @@
+:root {
+  /* Make all topics in sidebar visible */
+  --sidebar-width: 21rem;
+}
+
+.table-wrapper {
+  box-shadow: 0 0 20px #20272c;
+}
+
+.custom-info-box {
+  background-color: #dbedff;
+  padding: 10px;
+  border: 2px solid #79b8ff;
+  color: black;
+}
+
+.custom-warn-box {
+  background-color: #fffdef;
+  padding: 10px;
+  border: 2px solid #fff5b1;
+  color: black;
+}
+
+.custom-danger-box {
+  background-color: #ffeef0;
+  padding: 10px;
+  border: 2px solid #fdaeb7;
+  color: black;
+}
+
+.custom-header {
+  cursor: default;
+  text-decoration: none !important;
+}
+
+h1 > a,
+h2 > a,
+h3 > a,
+h4 > a {
+  cursor: default;
+  text-decoration: none !important;
+}
