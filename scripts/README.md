@@ -2,9 +2,14 @@
 This directory contains scripts used in the class by the trainer
 
 ## Main.js
+
 This script will take a repository as a template and create a copy in the target organization for each user in the input file.
-Input is a JSON array of github user names.
-Sample usage:
+
+1. Run `npm -i`
+2. Create `dev/stdinv.json` in `/scripts`
+3. JSON file is an array of github user names.
+4. Run the following command in `/scripts`:
+
 ```
-echo '["selkins13","chocrates"]' | node  main.js --token <Personal Access Token> --org <Target Org> --template <templateOrg/TemplateRepo> --file /dev/stdinv
+node  main.js --token <Personal Access Token> --org <Target Org> --template <templateOrg/TemplateRepo> --file dev/stdinv.json
 ```
